@@ -14,7 +14,7 @@ public class ParticipantService {
 
 	DatabaseConnector connector;
 
-	@Autowired //automatyczna inicjalizacja instancji obiektu poprzez Bean
+	@Autowired //automatyczna inicjalizacja instancji obiektu poprzez Bean w klasie App
 	PasswordEncoder passwordEncoder;
 
 	public ParticipantService() {
